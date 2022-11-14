@@ -40,15 +40,16 @@ window.addEventListener('load',()=>{
         task_delete_el.innerHTML="Delete";
 
 
-        
+        task_actions_el.appendChild(task_edit_el);
+        task_actions_el.appendChild(task_delete_el);
+
+        task_el.appendChild(task_actions_el);
+
        list_el.appendChild(task_el);
 
+     
 
-
-
-
-        list_el.appendChild(task_el);
-
+        input.value="";
 
 
 
