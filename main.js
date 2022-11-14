@@ -34,6 +34,7 @@ window.addEventListener('load',()=>{
 
         const task_edit_el = document.createElement("button");
         task_edit_el.classList.add("edit");
+        task_edit_el.innerHTML="EDIT";
 
         const task_delete_el = document.createElement("button");
         task_delete_el.classList.add("delete");
