@@ -6,7 +6,13 @@ window.addEventListener('load',()=>{
     form.addEventListener('submit',(e)=>{
         e.preventDefault();
 
-        console.log("ssss");
+        const task = input.value;
+
+        if(!task){
+            alert("please Fill out the tstk");
+            return;
+        }
+        
 
         })
 
