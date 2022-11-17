@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 :root {
     --dark : #374151;
     --darker : #1F2937;
@@ -11,7 +13,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Fira sans',sans-serif;
+    /* font-family: 'Fira sans',sans-serif; */
 }
 
 body{
@@ -30,15 +32,15 @@ header{
 }
 
 header h1{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color:var(--gray);
     margin-bottom:1rem;
 }
 
 #new-task-form{
     display:flex;
-
 }
 
 input,button{
@@ -46,6 +48,7 @@ input,button{
     border:none;
     outline:none;
     background: none;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 #new-task-input{
@@ -64,7 +67,8 @@ input,button{
 
 #new-task-submit{
     color:var(--pink);
-    font-size: 1.25rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.15rem;
     font-weight: 700;
     background-image: linear-gradient(to right,var(--pink),var(--purple));
     -webkit-background-clip:text;
@@ -76,7 +80,6 @@ input,button{
 
 #new-task-submit:hover{
     opacity: 0.8;
-
 }
 
 #new-task-submit:active{
@@ -89,6 +92,7 @@ main{
     max-width: 800px;
     width: 100%;
     margin : 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .task-list{
@@ -117,6 +121,7 @@ main{
 
 #tasks .task .content .text{
     color:var(--light);
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.125rem;
     width:100%;
     display: block;
@@ -124,7 +129,6 @@ main{
 }
 
 .task .content .text:not(:read-only){
-
     color:var(--pink);
 }
 
